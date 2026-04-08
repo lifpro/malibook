@@ -1,0 +1,21 @@
+{
+    "books": [
+      {
+        "id": 1,
+        "title": "Sous l'orage",
+        "author": "Seydou Badian",
+        "price": 5000,
+        "image": "https://via.placeholder.com/150",
+        "description": "Roman africain célèbre"
+      },
+      {
+        "id": 2,
+        "title": "Père riche père pauvre",
+        "author": "Robert Kiyosaki",
+        "price": 7000,
+        "image": "https://via.placeholder.com/150",
+        "description": "Livre sur la finance"
+      }
+    ],
+    "users": []
+  }
