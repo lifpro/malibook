@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'home/HomePage.dart'; // Assuming HomePage is in the same directory
-
-const Color primaryColor = Colors.blue; // Define the primary color
+import '../home/HomePage.dart'; // Assuming HomePage is in the same directory
 
 class LoginPage extends StatelessWidget {
   const LoginPage({super.key});
@@ -28,20 +26,26 @@ class LoginPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final primaryColor = Theme.of(context).primaryColor;
+
     return Scaffold(
       body: Padding(
         padding: const EdgeInsets.all(20),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            const Icon(Icons.menu_book, size: 70, color: primaryColor),
+            Icon(
+              Icons.menu_book,
+              size: 70,
+              color: primaryColor,
+            ),
             const SizedBox(height: 10),
             const Text(
               'MaliBook',
               style: TextStyle(fontSize: 26, fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 10),
-            const Text(
+            Text(
               'Connexion',
               style: TextStyle(fontSize: 20, color: primaryColor),
             ),
