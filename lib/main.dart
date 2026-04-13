@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:malibook/pages/home/HomePage.dart';
 
+import 'package:malibook/pages/splash/SplashPage.dart';
+
 void main() {
   runApp(const MaliBookApp());
 }
@@ -19,7 +21,7 @@ class MaliBookApp extends StatelessWidget {
         primaryColor: Color(0xFFA0522D),
         fontFamily: 'Roboto',
       ),
-      home: HomaPage(),
+      home: const SpashPage(),
     );
   }
 }

@@ -8,7 +8,14 @@ class HomeTab extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: MyAppBar(title: 'Accueil'),
-      body: Center(child: Text('Bienvenue sur la page d\'accueil')),
+      body: Center(
+        child: TextButton(
+          onPressed: () {
+            print(' vous venez de cliquer sur le bouton Commencer');
+          },
+          child: Text('Commencer'),
+        ),
+      ),
     );
   }
 }

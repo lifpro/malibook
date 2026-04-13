@@ -17,7 +17,15 @@ class _HomaPageState extends State<HomaPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      // appBar: AppBar(
+      //   title: Text('MaliBook'),
+      //   centerTitle: false,
+      //   backgroundColor: Theme.of(context).primaryColor,
+      //   foregroundColor: Colors.white,
+      //   elevation: 0,
+      // ),
       body: pages[index],
+      // drawer: Drawer(child: Column(children: [Text('Profil')])),
       bottomNavigationBar: BottomNavigationBar(
         backgroundColor: Theme.of(context).primaryColor,
         selectedItemColor: Colors.white,
