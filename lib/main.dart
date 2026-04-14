@@ -21,7 +21,7 @@ class MaliBookApp extends StatelessWidget {
         primaryColor: Color(0xFFA0522D),
         fontFamily: 'Roboto',
       ),
-      home: const SpashPage(),
+      home: const HomaPage(),
     );
   }
 }
